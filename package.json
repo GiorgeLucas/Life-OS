@@ -1,5 +1,16 @@
 {
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "dependencies": {
+    "commitizen": "^4.3.1",
     "jiti": "^2.6.1"
   },
   "devDependencies": {
@@ -16,6 +27,7 @@
   "scripts": {
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
+    "commit": "cz",
     "prepare": "husky"
   }
 }
