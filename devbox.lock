@@ -49,6 +49,54 @@
         }
       }
     },
+    "electron@latest": {
+      "last_modified": "2025-11-23T21:50:36Z",
+      "resolved": "github:NixOS/nixpkgs/ee09932cedcef15aaf476f9343d1dea2cb77e261#electron",
+      "source": "devbox-search",
+      "version": "38.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b7ih15x4b4vk3vy03mbc7lhhg4bjzjj2-electron-38.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b7ih15x4b4vk3vy03mbc7lhhg4bjzjj2-electron-38.7.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pbi81saw8l4r13wspl2n5yfbz9n9jp33-electron-38.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pbi81saw8l4r13wspl2n5yfbz9n9jp33-electron-38.7.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b8pjcy54k9maix8arwj4f2v0mvk431c4-electron-38.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b8pjcy54k9maix8arwj4f2v0mvk431c4-electron-38.7.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s1fhicw9fv9y2hh5jrzjj7ryns9b0ksn-electron-38.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s1fhicw9fv9y2hh5jrzjj7ryns9b0ksn-electron-38.7.1"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "last_modified": "2025-11-20T06:07:48Z",
       "resolved": "github:NixOS/nixpkgs/a8d610af3f1a5fb71e23e08434d8d61a466fc942?lastModified=1763618868&narHash=sha256-v5afmLjn%2FuyD9EQuPBn7nZuaZVV9r%2BJerayK%2F4wvdWA%3D"
