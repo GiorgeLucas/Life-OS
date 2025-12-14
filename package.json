@@ -7,7 +7,20 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "scope-enum": [2, "always", [
+        "ui",
+        "db",
+        "styles",
+        "electron",
+        "docs",
+        "test",
+        "deps",
+        "dev",
+        "ci"
+      ]]
+    }
   },
   "config": {
     "commitizen": {
