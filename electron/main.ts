@@ -1,6 +1,5 @@
-import { app, BrowserWindow } from "electron"
-import path from "path"
-
+import { app, BrowserWindow } from 'electron';
+import path from 'path';
 
 const isDev = !app.isPackaged;
 
@@ -10,8 +9,8 @@ function createWindow() {
     height: 800,
     webPreferences: {
       nodeIntegration: false,
-      contextIsolation: true
-    }
+      contextIsolation: true,
+    },
   });
 
   if (isDev) {

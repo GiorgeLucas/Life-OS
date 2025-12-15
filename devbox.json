@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
   "packages": ["bun@latest", "electron@latest"],
   "shell": {
-    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
+    "init_hook": ["export ELECTRON_OVERRIDE_DIST_PATH=\"$(pwd)/.devbox/nix/profile/default/bin/\""],
     "scripts": {
-      "dev": "electron ."
+      "dev": "bun run concurrently \"vite\" \"wait-on http://localhost:5173 && $(pwd)/.devbox/nix/profile/default/bin/electron .\""
     }
   }
 }
