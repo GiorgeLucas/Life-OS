@@ -1,8 +1,15 @@
+import Shell from "@/components/Shell";
+import Time from "@/components/Widgets/Time";
+import Weather from "@/components/Widgets/Weather";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-black">Hello World!</h1>
-    </>
+    <Shell>
+      <div className="flex flex-col gap-2">
+        <Time />
+        <Weather />
+      </div>
+    </Shell>
   );
 }
 
